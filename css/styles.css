@@ -1,0 +1,15 @@
+h2.intro {
+  color: purple;
+}
+
+p.intro {
+  font-style: italic;
+}
+
+img.intro {
+  width: 25%;
+}
+
+.intro {
+  text-align: center;
+}
