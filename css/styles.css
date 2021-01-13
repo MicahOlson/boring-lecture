@@ -1,8 +1,16 @@
+header {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: double 5px #000000;
+  margin-bottom: 1rem;
+}
+
 h2.intro {
   color: purple;
 }
 
-p.intro {
+h5.intro {
   font-style: italic;
 }
 
@@ -10,6 +18,23 @@ img.intro {
   width: 25%;
 }
 
-.intro {
-  text-align: center;
+.float-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: lightyellow;
+  border: double 5px #000000;
+  padding: 5px;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
